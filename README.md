@@ -1,49 +1,37 @@
-# Retrieval-Augmented Generation Framework for the Nepali Legal Domain Question Answering
+# Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering
 
-## Overview
-This project aims to develop a Retrieval-Augmented Generation (RAG) framework tailored for question answering in the Nepali legal domain. Leveraging state-of-the-art machine learning and natural language processing techniques, the framework is designed to provide accurate and context-aware responses to legal queries.
+This project provides a retrieval-augmented generation framework specifically designed for the Nepali legal domain. Below are the actual project files that are included:
 
-## Features
-- Advanced RAG model optimized for the Nepali language
-- Ability to handle complex legal queries
-- Integration with various Nepali legal databases
-- User-friendly interface for ease of use
-- Comprehensive documentation
+- `model.py`: Contains the machine learning models used for the question answering tasks.
+- `data_preprocessing.py`: A script for preprocessing the data to be used in the models.
+- `app.py`: The main application file that runs the question answering web service.
 
-## Installation Instructions
-1. **Clone the repository**:
+You can access the source data for this project at [Google Drive](https://drive.google.com/drive/folders/YOUR_FOLDER_ID).  
+
+## Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/temporary-research/Retrieval-Augmented-Generation-Framework-for-the-Nepali-Legal-Domain-Question-Answering.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
    cd Retrieval-Augmented-Generation-Framework-for-the-Nepali-Legal-Domain-Question-Answering
    ```
-2. **Install required dependencies**:
+
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. **Setup the environment**:
-   Follow the setup instructions in the `setup.md` file.
 
 ## Usage
-To use the framework, follow these steps:
-1. Start the server:
-   ```bash
-   python app.py
-   ```
-2. Navigate to `http://localhost:5000` in your browser.
-3. Input your legal query and receive an answer.
 
-## Project Structure
+To run the application, use the following command:
+```bash
+python app.py
 ```
-Retrieval-Augmented-Generation-Framework-for-the-Nepali-Legal-Domain-Question-Answering/
-│
-├── app.py                   # Main application file
-├── requirements.txt         # Dependencies
-├── setup.md                 # Setup instructions
-├── models/                  # Machine learning models
-│   ├── model_1.py           # Example model file
-│   └── ...                  # Additional model files
-├── data/                    # Data storage
-│   ├── legal_documents/     # Legal documents for training
-│   └── ...                  # Additional data
-└── README.md                # Project documentation
-```
+
+## Contributing
+
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
