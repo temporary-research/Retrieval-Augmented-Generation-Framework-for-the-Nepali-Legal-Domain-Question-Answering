@@ -1,37 +1,18 @@
-# Retrieval Augmented Generation Framework for the Nepali Legal Domain Question Answering
+# Retrieval-Augmented Generation Framework for the Nepali Legal Domain Question Answering
 
-This project provides a retrieval-augmented generation framework specifically designed for the Nepali legal domain. Below are the actual project files that are included:
+This repository contains several components meant to facilitate the implementation of retrieval-augmented generation models for question answering in the Nepali legal domain.
 
-- `model.py`: Contains the machine learning models used for the question answering tasks.
-- `data_preprocessing.py`: A script for preprocessing the data to be used in the models.
-- `app.py`: The main application file that runs the question answering web service.
+## Contents
+- `RAGModel.ipynb`: Jupyter notebook implementing the RAG model.
+- `final_code_direct_run.ipynb`: Jupyter notebook for the final implementation, which can be run directly.
+- `newchunking.py`: A Python script for chunking text data that is used within the process.
 
-You can access the source data for this project at [Google Drive](https://drive.google.com/drive/folders/YOUR_FOLDER_ID).  
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/temporary-research/Retrieval-Augmented-Generation-Framework-for-the-Nepali-Legal-Domain-Question-Answering.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd Retrieval-Augmented-Generation-Framework-for-the-Nepali-Legal-Domain-Question-Answering
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Data Access
+You can access the required data through the following Google Drive link:
+[Google Drive Data](https://drive.google.com/drive/folders/1bobK2FJ2LgA5Uo64KxDXT2AGuBQR5LJ4?usp=sharing)
 
 ## Usage
+To use the contents of this repository, follow the notebooks to understand how to set up and run the models. Ensure the necessary libraries are installed and the data is accessible from the provided Google Drive link.
 
-To run the application, use the following command:
-```bash
-python app.py
-```
-
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+## License
+This project is licensed under the MIT License.
